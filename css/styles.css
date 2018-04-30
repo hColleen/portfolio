@@ -1,0 +1,47 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: darkgrey;
+	text-align: center;
+}
+header{
+	text-align: right;
+}
+.logo{
+	float: left;
+	height: 75px;
+	border-radius: 50%;
+	margin-top: -100px;
+}
+hr{
+	width: 95%;
+    border-width: 2px;
+}
+.image-holder>img, a>img{
+	width: 100%;
+}
+.project{
+	padding-bottom: 25px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+@media screen and (min-width: 600px){
+	.project{
+		width: 45%;
+}
+}
+@media screen and (min-width: 700px){
+	.project{
+		width: 33%;
+	}
+}
+@media screen and (min-width: 850px){
+	body{
+		width: 850px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
